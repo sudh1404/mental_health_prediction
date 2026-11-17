@@ -1,0 +1,11 @@
+{
+  "model": "FacebookAI/roberta-base",
+  "task": "binary_stress_detection",
+  "training_examples": 2412,
+  "validation_examples": 426,
+  "test_examples": 715,
+  "accuracy": 0.7314685314685314,
+  "precision": 0.6731898238747553,
+  "recall": 0.9322493224932249,
+  "f1_score": 0.7818181818181819
+}

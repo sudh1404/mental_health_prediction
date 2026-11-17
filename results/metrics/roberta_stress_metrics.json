@@ -1,0 +1,14 @@
+{
+    "model": "roberta-base",
+    "model_version": "V2",
+    "selected_seed": 42,
+    "task": "binary_stress_detection",
+    "accuracy": 0.8097902097902098,
+    "precision": 0.7793764988009593,
+    "recall": 0.8807588075880759,
+    "f1_score": 0.8269720101781171,
+    "test_examples": 715,
+    "max_length": 256,
+    "checkpoint": "models/roberta_stress_v2",
+    "evaluation_device": "cpu"
+}

@@ -1,0 +1,8 @@
+{
+    "model": "TF-IDF + Logistic Regression",
+    "task": "Stress Detection",
+    "accuracy": 0.7160839160839161,
+    "precision": 0.7095959595959596,
+    "recall": 0.7615176151761518,
+    "f1_score": 0.734640522875817
+}

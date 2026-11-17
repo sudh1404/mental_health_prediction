@@ -1,0 +1,59 @@
+{
+  "model": "roberta-base",
+  "task": "binary_stress_detection",
+  "accuracy": 0.8097902097902098,
+  "precision": 0.7793764988009593,
+  "recall": 0.8807588075880759,
+  "f1_score": 0.8269720101781171,
+  "selected_seed": 42,
+  "selection_rule": "highest validation F1 (test set not used for selection)",
+  "validation_f1": 0.8350730688935282,
+  "training_examples": 2393,
+  "validation_examples": 445,
+  "test_examples": 715,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "seed_mean": {
+    "accuracy": 0.8167832167832167,
+    "precision": 0.7908548553521589,
+    "recall": 0.877145438121048,
+    "f1_score": 0.8316963803311038
+  },
+  "seed_std": {
+    "accuracy": 0.00640919677616202,
+    "precision": 0.010356247430442639,
+    "recall": 0.011282742544531883,
+    "f1_score": 0.005274907675299447
+  },
+  "ensemble_of_seeds": {
+    "accuracy": 0.8251748251748252,
+    "precision": 0.7990196078431373,
+    "recall": 0.8834688346883469,
+    "f1_score": 0.8391248391248392
+  },
+  "hyperparameters": {
+    "base_model": "roberta-base",
+    "MAX_LENGTH": 256,
+    "epochs": 4,
+    "learning_rate": 2e-05,
+    "per_device_batch": 16,
+    "grad_accum": 1,
+    "effective_batch": 16,
+    "weight_decay": 0.01,
+    "warmup_steps": 60,
+    "scheduler": "linear",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "selected_seed": 42,
+    "validation_fraction": 0.15,
+    "min_confidence": null,
+    "precision": "fp16",
+    "gpu": "Tesla T4"
+  }
+}

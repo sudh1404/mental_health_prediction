@@ -1,0 +1,22 @@
+{
+  "base_model": "roberta-base",
+  "MAX_LENGTH": 256,
+  "epochs": 4,
+  "learning_rate": 2e-05,
+  "per_device_batch": 16,
+  "grad_accum": 1,
+  "effective_batch": 16,
+  "weight_decay": 0.01,
+  "warmup_steps": 60,
+  "scheduler": "linear",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selected_seed": 42,
+  "validation_fraction": 0.15,
+  "min_confidence": null,
+  "precision": "fp16",
+  "gpu": "Tesla T4"
+}

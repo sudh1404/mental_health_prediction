@@ -1,0 +1,16 @@
+
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+datasets
+jupyter
+ipykernel
+fastapi
+uvicorn[standard]
+transformers
+torch
+openai
+python-dotenv
